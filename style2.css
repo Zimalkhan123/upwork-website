@@ -1,0 +1,1105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:poppins , sans-serif,;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+.parent{
+    width:86%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.parent1{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ------------nav-bar section-------------- */
+
+/* -----------resize the logo of upwork------------- */
+
+.nav-logo img{
+    height: 70px;
+    width: 100px; 
+    
+}
+
+/* ------nav-bar active links------ */
+
+.navbar-section{
+    position: sticky;
+    top: 0;
+    z-index: 1100;
+    background-color: white;
+}
+
+.active-links{
+    display: flex;
+    align-items: flex-start;
+    list-style: none;
+    gap: 40px;
+
+}
+
+.active-links a{
+    text-decoration:none;
+    color: black;
+    transition: 0.3sec;
+    font-weight: 500;
+}
+
+/* hover effect of active-links */
+
+.active-links a:hover{
+color: rgb(12, 132, 12);
+transition: ease-out;
+
+}
+
+
+/*------- main-nav ko display flex keya hu------------ */
+
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    border-bottom: 1px solid rgb(222, 221, 221);
+   
+}
+
+/* -------------search-button-------------  */
+.search-button{
+    display: flex;
+    gap: 10px;
+}
+/* search-bar class hay search button ka */
+.search-bar{
+    width: 350px;
+    border-radius: 15px;
+    outline: none;
+    /* border-color: black; */
+    border: 1px solid black;
+}
+/* ----------------login button------------- */
+.white-btn{
+    padding: 8px 10px;
+    background-color:white;
+    border-radius: 18px;
+    color: green;
+    border-color: none;
+    font-family: poppins;
+
+}
+/* ---------------signin button------------ */
+.green-btn{
+    padding: 8px 10px;
+    background-color: green;
+    border-radius: 18px;
+    color: white;
+    border-color: none;
+    font-family: poppins , sans-serif;
+    transition: .3sec;
+}
+
+.green-btn:hover{
+    background-color: rgb(16, 161, 16);
+    color: white;
+    transition: ease-out;
+}
+
+/* -------------services-section-------------- */
+
+.s-section{
+    position: sticky;
+    top: 3;
+}
+#service-links{
+    
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    justify-content: flex-start;
+    gap:12px ;
+    padding: 20px 0 20px 8px;
+    background-color: white;
+
+}
+
+.service-active-links a{
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+    
+    
+}
+
+.service-active-links a:hover{
+    border-bottom: 1px solid black;
+}
+
+/* .parent{
+    border: 1px solid red;
+} */
+
+/* -----------------Heros section----------------------- */
+
+.heros{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    
+}
+
+/* -----------------Heros  Heading section----------------------- */
+
+
+/* -------------------define width of child in heros section------------ */
+
+.heros-text{
+    width: 50%;
+   
+
+}
+
+.heros-img{
+    width: 50% ;
+}
+
+h1{
+    font-size: 90px;
+    font-family: Mirza , poppins ;
+    line-height: 70px;
+    padding: 30px 0 30px 0;
+    width: 100%;
+    color: green;
+    
+}
+
+.sub-heading h2{
+    font-size: 24px;
+    width:100% ;
+    font-family:poppins,sans-serif;
+    padding: 10px 0 20px 0;
+    color: grey;
+    text-align: start;
+}
+
+.green1-btn {
+    /* padding: 6px 0 4px 16px ; */
+    padding-left: 15px;
+    padding: 10px 12px;
+    
+    background-color: green;
+    border-radius: 25px;
+    color: white;
+    border-color: none;
+    font-family: poppins, sans-serif;
+    transition: .3sec;
+    width: 120px;
+}
+
+.green1-btn:hover {
+    background-color: rgb(16, 161, 16);
+    color: white;
+    transition: ease-out;
+}
+
+.trust h6{
+font-size: 16px;
+font-family: poppins, sans-serif;
+color: #9aaa97;
+padding: 60px 0 10px 0;
+}
+.resize-clogo{
+    height: 40px;
+}
+
+.company-logo{
+    display: flex;
+    gap: 25px;
+   
+}
+
+
+
+/* ------------------- --resize the image size-- ---------------- */
+
+.heros-img img{
+    height: 500px;
+    width: 490px;
+    padding-top: 10px;
+    
+}
+
+/* ------------------Browse-section---------------------- */
+
+.browse-heading h2{
+font-size: 50px;
+padding: 30px 0 1px 0;
+font-family: Mirza, poppins;
+
+}
+
+.paragraph{
+    font-size: 16px;
+    font-family: poppins ,sans-serif;
+    padding: 5px 0 15px 0 ;
+}
+
+.green-span{
+    color: green;
+}
+
+/* ---------------field-section-------------------- */
+
+/* ---working with box-size------- */
+
+
+.box-size{
+    border: 1px solid #deecea;
+    width: 23%;
+    height: 135px ;
+    border-radius: 10px;
+    background-color: #f2f7f2;
+    transition: 0.1sec;
+}
+
+.box-size:hover{
+    background-color: #d5e0d5;
+    transition: ease-in;
+}
+
+
+.b1h h2{
+   font-size: 20px;
+   padding: 20px 0 3px 20px;
+   font-family: poppins;
+}
+
+.b1h-center {
+    display: flex;
+    justify-content: flex-start;
+    gap: 45px;
+    padding: 5px 0 3px 20px;
+}
+
+.b-center{
+
+    font-family:  Geneva, Verdana, sans;
+    color: #5e6d55;
+}
+
+/* ---------------display felx kardo niche class ko---------------  */
+
+.niche{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+
+/* -------------------Enterprise-section---------------- */
+
+.enterprise{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 35px;
+    padding-bottom: 45px;
+}
+
+.enterprise-text{
+    background-color: #13544e;
+    width: 64%;
+    height:600px ;
+    padding-left: 25px;
+    border-radius: 8px 0 0 8px;
+}
+
+.small-text{
+    font-size: 22px;
+    color: white;
+    padding: 20px 0 20px 0;
+    font-family: poppins , sans-serif;
+}
+
+
+.enterprise-big-heading h2{
+    font-size: 50px;
+    color: #91e6b3;
+    line-height: 50px;
+    width: 400px;
+    padding: 0 0 20px 0;
+    font-family: mirza,sans-serif;
+}
+ /*  .enterprise-big-heading h2 kay andar span hay uska class hay Eprise-white  */
+
+.Eprise-white {
+    color: white;
+}
+
+.e-paragraph{
+    font-size: 18px;
+    font-family: poppins , sans-serif;
+    color: white;
+    width: 600px;
+    padding: 20px 0 30px 0;
+}
+
+.e-list{
+    
+        font-size: 18px;
+        font-family: poppins, sans-serif;
+        padding: 10px 0 20px 0;
+        line-height: 35px;
+        color: white;
+}
+
+.e-list img{
+height: 23px;
+padding: 5px 5px 0 0;
+}
+
+.e-btn {
+    padding-left: 23px;
+    padding-right: 10px ;
+    padding-block: 8px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    color:#13544e;
+    border-color: none;
+    font-family: poppins, sans-serif;
+    transition: .3sec;
+    width: 130px;
+}
+
+/* -----------------resize the enterprize image---------------------- */
+
+.enterprise-image{
+    width: 40%;
+   
+}
+
+.enterprise-image img{
+    height: 600px;
+    width: 450px;
+    border-radius: 0 8px 8px 0;
+}
+
+/* ----------clients-section --------------------- */
+
+/* -------background image of client section------- */
+
+.client-wrapper{
+    background-image: url("blackimage.png");
+    height: 570px;
+    width: 100%;
+    border-radius: 8px;
+    padding-top: 25px;
+    padding-left: 35px;
+    
+}
+
+.client-text{
+    font-family: poppins, sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    padding: 0 0 50px 0;
+    
+}
+
+.client-big-heading h2{
+    font-family: mirza,sans-serif;
+    font-size: 70px;    
+    color: #ffffff;
+    width: 400px;
+    line-height: 60px;
+}
+
+.client-paragraph p{
+
+    color: #ffffff;
+    font-family: poppins ,sans-serif;
+    padding: 35px 0 0 0 ;
+    font-size: 18px;
+    width: 500px;
+
+}
+
+/* --------three box section------------ */
+
+.three-box{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+
+.c-three-box{
+    padding: 50px 0 0 0 ;
+}
+
+.c-box{
+    background-color: #14a800;
+    border-radius: 8px;
+    width: 330px;
+    height: 145px;
+    padding: 5px 0 0 15px;
+    transition: .3sec;
+}
+
+
+.c-heading h3{
+    font-family: poppins,sans-serif;
+    font-size: 26px;
+    line-height: 40px;
+    width: 230px;
+    color: #ffffff;
+}
+
+
+.c-small-heading{
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 25px;
+    color: #ffffff;
+    
+}
+
+.c-box3 h3{
+width: 280px;
+}
+
+
+/* ------------Businesses upwork section --------------------- */
+
+.business-upwork{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-top: 50px;
+    /* correction */
+    position: relative;
+}
+
+/* ---------------vector girls image------------------------  */
+.p-img{
+    
+    position: absolute;
+    width: 390px;
+    top: 90;
+    right: 250px;
+    bottom: 10px;
+    z-index: 1000;
+}
+
+.business-text{
+    width: 65%;
+    height: 620px;
+    /* border: 1px solid green; */
+    background-color: #f2f7f2;
+    border-radius: 8px;
+    padding: 70px 0 0 30px;
+}
+
+.business-green-text{
+    /* border: 1px solid blue; */
+    width:35% ;
+    background-color: #14a800;
+    border-radius: 8px ;
+    
+}
+
+.business-big-heading h2{
+    font-size: 80px;
+    font-family: mirza,sans-serif;
+    color: #001e00;
+    width: 500px;
+    line-height: 60px;
+    padding-bottom: 15px;
+
+}
+
+.p-quality h3{
+color: #001e00;
+font-size: 32px;
+font-family: poppins,sans-serif;
+padding: 18px 0 4px 0;
+
+}
+
+
+.p-quality-paragraph p{
+    font-size: 16px;
+    font-family: poppins, sans-serif;
+    width: 450px;
+    padding-left: 30px;
+   
+}
+/* --------------business green text----------------- */
+
+
+.business-green-text{
+    padding: 50px 0 0 30px;
+}
+
+.w-marketplace{
+    font-size: 20px;
+    color: #ffffff;
+    font-family: poppins , sans-serif;
+    padding: 100px 0 10px  0;
+    line-height: 35px;
+
+}
+
+.ratting{
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: poppins, sans-serif;
+    padding: 20px 0 5px 0;
+}
+/* ratting img{
+    color: #ffffff;
+} */
+
+.ratting-p{
+    font-size: 16px;
+    color: #ffffff;
+    font-family: poppins, sans-serif;
+}
+
+.award-winner{
+    font-size: 28px;
+    color: #ffffff;
+    font-family: poppins, sans-serif;
+    padding-top: 25px;
+}
+
+/* -------------leptop girls section--------------------------- */
+
+.leptop-girl{
+   display: flex;
+   justify-content: flex-start;
+   margin-top: 50px;
+}
+.girl-image img{
+    height: 600px;
+    width: 550px;
+    /* border: 1px solid green; */
+    border-radius: 8px 0 0 8px ;
+
+    
+}
+
+.blue-text{
+  
+    background-color: rgb(25, 70, 175);
+    height: 600px;
+    width: 550px;
+    border-radius: 0 8px  8px 0;
+    padding: 10px 25px 0 20px;
+
+    }
+
+.for-talent{
+    font-family: poppins , sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.find-great-work h2{
+ font-size: 60px;
+ font-family: mirza,sans-serif;
+ color: white;
+width: 300px;
+line-height: 50px;
+padding: 10px 0 30px 0;
+}
+
+
+ 
+.blue-paragraph {
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 22px;
+    font-family: poppins , sans-serif;
+    padding-right: 40px;
+    padding: 5px 40px 20px 0;
+}
+
+
+
+.two-blue{
+    display: flex;
+    justify-content: space-between;
+    font-family: poppins , sans-serif;
+    color: #ffffff;
+    font-size:18px ;
+    margin: 50px 0 0 0 ;
+    padding-top: 10px;
+    border-top: 1px solid white;
+
+}
+
+.p1{
+    width: 210px;
+}
+.p2{
+    width: 190px;
+}
+
+.explore-p{
+    font-size: 18px;
+    font-family: poppins , sans-serif;
+    color: #ffffff;
+    width: 190px;
+   
+}
+
+.white-blue-btn{
+    margin-top: 30px;
+}
+.white-blue-btn {
+
+    padding: 8px 0 8px 15px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    color:rgb(25, 70, 175);
+    border-color: none;
+    font-family: poppins, sans-serif;
+    transition: .3sec;
+    width: 175px;
+}
+
+/* ---------Trusted Brands ---------------------- */
+
+.trusted-big-heading h2{
+    font-family: Mirza , sans-serif;
+    font-size: 80px;
+    color: #001e00;
+    width: 800px;
+    line-height: 70px;
+    padding: 40px 0 30px 13px;
+}
+/* -------card1----------------- */
+.trusted-cards{
+    padding-top: 40px;
+}
+
+.card1{
+    height: 460px;
+    width: 540px;
+    background-color: #13544e;
+    padding: 20px 20px  0 20px;
+    border-radius: 10px ;
+}
+
+.car1-paragraph{
+    font-size: 22px;
+    font-family: poppins , sans-serif;
+    font-weight: 600;
+    line-height: 30px;
+    color: #ffffff;
+    width: 440px;
+    padding: 10px;
+   
+    /* color: #d5e0d5;*/
+}
+
+.small-paragraph{
+    font-size: 15px;
+    font-family: poppins ,sans-serif;
+    color: #d5e0d5;
+    padding: 0 0 60px 10px ;
+
+}
+.results{
+    color: #d5e0d5 ;
+    font-weight: 12px;
+    font-family: poppins, sans-serif;
+    padding: 30px 0 20px 0;
+}
+
+.emmy-text{
+    font-size: 24px;
+    color: #ffffff;
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+    
+
+}
+
+.emmy-sub-text{
+    font-size: 16px;
+    color: #d5e0d5;
+    font-family: poppins, sans-serif;
+    width: 200px;
+}
+
+
+.million-text{
+    font-size: 24px;
+        color: #ffffff;
+        font-family: poppins, sans-serif;
+        font-weight: bold;
+}
+
+.million-sub-text{
+    font-size: 16px;
+    color: #d5e0d5;
+    font-family: poppins, sans-serif;
+    width: 220px;
+    
+
+}
+
+/* ------ dis[lay flex keya hu two-trusted-cars */
+
+.two-trusted-cards{
+display: flex;
+justify-content: flex-start;
+gap: 40px;
+border-top: 1px solid #ffffff;
+/* margin-right: 8px; */
+
+}
+
+/* ------------------ flex kardo trusted-cards------------ */
+
+.trusted-cards{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+/* ---------------card-2------------------ */
+
+.card2 {
+    height: 460px;
+    width: 540px;
+    background-color: #bc511b;
+    padding: 20px 20px 0 20px;
+    border-radius: 10px;
+}
+
+.car2-paragraph {
+    font-size: 22px;
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    line-height: 30px;
+    color: #ffffff;
+    width: 440px;
+    padding: 10px;
+
+    /* color: #d5e0d5;*/
+}
+
+.small-paragraph-card2 {
+    font-size: 15px;
+    font-family: poppins, sans-serif;
+    color: #d5e0d5;
+    padding: 0 0 44px 10px;
+
+}
+
+.results {
+    color: #d5e0d5;
+    font-weight: 12px;
+    font-family: poppins, sans-serif;
+    padding: 30px 0 20px 0;
+}
+
+.emmy-text {
+    font-size: 24px;
+    color: #ffffff;
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+
+
+}
+
+.emmy-sub-text {
+    font-size: 16px;
+    color: #d5e0d5;
+    font-family: poppins, sans-serif;
+    width: 200px;
+}
+
+
+.million-text {
+    font-size: 24px;
+    color: #ffffff;
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+}
+
+.million-sub-text {
+    font-size: 16px;
+    color: #d5e0d5;
+    font-family: poppins, sans-serif;
+    width: 220px;
+
+
+}
+
+/* ------ dis[lay flex keya hu two-trusted-cars */
+
+.two-trusted-cards {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    border-top: 1px solid #ffffff;
+    /* margin-right: 8px; */
+
+}
+
+/* -------------logo ko padding deya hu left say-------------------- */
+
+.microsoft-logo img{
+    padding: 0 0  0 8px;
+}
+
+.nasdaq-logo{
+    padding: 0 0 0 8px;
+}
+
+/* --------------------ukrain-support-section ----------------------------- */
+
+.ukrain-support{
+    padding: 14px 0 24px 24px;
+    margin-block: 90px;
+    background-color: #f2f7f2;
+    border-radius: 10px;
+}
+
+
+.flex-ukrain{
+    display: flex ;
+    justify-content: space-between;
+}
+
+.main-supportheading{
+    width: 800px;
+    
+}
+
+
+.big-heaidng-ukrain h3{
+    font-family: mirza ,sans-serif;
+    font-size: 50px;
+    color: #001e00;
+    padding: 0 0 4px 0;
+}
+
+.grey-paragraph p{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: poppins , sans-serif;
+    color: #5e6d55;
+    padding: 0 0 28px 0;
+
+}
+
+.oultine-green-btn{
+     padding:5px 15px 5px 20px ;
+     background-color: rgb(255, 255, 255);
+     border: 2px solid green;
+     border-radius: 25px;
+     color: green;
+     border-color: none;
+     font-family: poppins, sans-serif;
+     font-weight: 400;
+     transition: .3sec;
+     width: 135px;
+
+    
+}
+
+.love-image{
+    width: 180px;
+}
+/* ------------------- Skill-list-section ----------------------------------------------- */
+
+.main-skill-support{
+display: flex;
+justify-content: space-evenly;
+gap: 28px;
+align-items: flex-start;
+padding: 5px 0 80px 0;
+
+}
+
+.top1-4{
+    font-family: poppins , sans-serif;
+    font-size: 20px;
+    color: #9aaa97;
+    transition: .3sec;
+
+}
+
+.top1-4 li:hover{
+    color: #14a800;
+
+}
+
+.tm{
+    font-size: 14px;
+}
+
+
+.top2-16{
+font-family: poppins, sans-serif;
+    font-size: 18px;
+   ;
+    color: #5e6d55;
+    transition: .3sec;
+}
+.top2-16 li:hover{
+    color: #14a800;
+}
+
+.top2-16 li{
+    padding: 5px 0 5px 0;
+}
+
+
+.top3-16 {
+    font-family: poppins, sans-serif;
+    font-size: 18px;
+    color: #5e6d55;
+    transition: .3sec;
+    
+}
+
+.top3-16 li:hover {
+    color: #14a800;
+}
+
+.top3-16 li {
+    padding: 5px 0 5px 0;
+}
+
+/* --------------------------------------------------------------footer section------------------------------------------------ */
+
+.logo-footer{
+    padding:0  20px 0 20px ;
+}
+
+.green-footer{
+    margin: 10px  0 0 0 ;
+    padding: 40px 0 0 0;
+    background-color: #001e00;
+    color: #ffffff;
+    height: 590px;
+    border-radius: 10px ;
+}
+
+.main-green-heading{
+    display: flex;
+    justify-content: flex-start;
+    gap: 70px;
+    font-family: poppins , sans-serif; 
+    /* border: 1px solid  blue; */
+    height: 350px;
+    padding-left: 20px;
+    margin-top: 45px;
+}
+
+
+
+.footer-maneger li{
+    padding: 10px 0 4px 0 ;
+    color: #ffffff;
+}
+
+.footer-all{
+    width: 250px;
+    /* border:1px solid rgb(0, 152, 63); */
+}
+/* ---------------------log0 footer-------------------------------------------------------------- */
+
+.socialmedia-logo{
+display: flex;
+justify-content: space-between;
+padding: 5px 0 0 0 ;
+}
+
+.social{
+    display: flex ;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.follow-us{
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 0  0 0;
+}
+
+.fityw img{
+    padding: 6px 20px 0 0 ;
+    height: 30px;
+    width: 50px;
+    /* display: inline;
+    gap: 60px; */
+
+}
+
+.Ip-An{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 8px 10px 0 0 ;
+}
+
+.ip1{
+padding: 4px 10px 0 0 ;
+height: 25px;
+width: 25px;
+
+}
+
+.ip1 {
+    padding: 4px 10px 0 0;
+    height: 25px;
+    width: 25px;
+
+}
+
+
+.mobileapp-text{
+    font-family: poppins, sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.date-logo{
+    margin-top: 20px;
+    border-top: 1px solid rgb(255, 255, 255);
+    margin: 0 20px 10px 20px;
+
+}
+
+.date-logo-flex{
+    display:flex;
+    font-family: poppins, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    gap: 45px;
+    padding: 15px 0 20px 0;
+    
+    
+}
